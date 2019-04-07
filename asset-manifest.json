@@ -1,14 +1,13 @@
 {
-  "main.css": "/pomodorizador/static/css/main.62e9a472.chunk.css",
-  "main.js": "/pomodorizador/static/js/main.f55e532f.chunk.js",
-  "main.js.map": "/pomodorizador/static/js/main.f55e532f.chunk.js.map",
-  "runtime~main.js": "/pomodorizador/static/js/runtime~main.dffe80e5.js",
-  "runtime~main.js.map": "/pomodorizador/static/js/runtime~main.dffe80e5.js.map",
-  "static/js/2.4b44abd2.chunk.js": "/pomodorizador/static/js/2.4b44abd2.chunk.js",
-  "static/js/2.4b44abd2.chunk.js.map": "/pomodorizador/static/js/2.4b44abd2.chunk.js.map",
+  "main.css": "/pomodorizador/static/css/main.eae81052.chunk.css",
+  "main.js": "/pomodorizador/static/js/main.246aec72.chunk.js",
+  "main.js.map": "/pomodorizador/static/js/main.246aec72.chunk.js.map",
+  "runtime~main.js": "/pomodorizador/static/js/runtime~main.1a50ee4e.js",
+  "runtime~main.js.map": "/pomodorizador/static/js/runtime~main.1a50ee4e.js.map",
+  "static/js/2.48c56f0e.chunk.js": "/pomodorizador/static/js/2.48c56f0e.chunk.js",
+  "static/js/2.48c56f0e.chunk.js.map": "/pomodorizador/static/js/2.48c56f0e.chunk.js.map",
   "index.html": "/pomodorizador/index.html",
-  "precache-manifest.ad5c659ffbce2f490dff81faf7d3afdf.js": "/pomodorizador/precache-manifest.ad5c659ffbce2f490dff81faf7d3afdf.js",
+  "precache-manifest.f76f7302134ebf85c12cc94b4572a704.js": "/pomodorizador/precache-manifest.f76f7302134ebf85c12cc94b4572a704.js",
   "service-worker.js": "/pomodorizador/service-worker.js",
-  "static/css/main.62e9a472.chunk.css.map": "/pomodorizador/static/css/main.62e9a472.chunk.css.map",
-  "static/media/logo.svg": "/pomodorizador/static/media/logo.5d5d9eef.svg"
+  "static/css/main.eae81052.chunk.css.map": "/pomodorizador/static/css/main.eae81052.chunk.css.map"
 }
