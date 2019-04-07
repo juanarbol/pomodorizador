@@ -1,0 +1,15 @@
+.Button {
+  color: white;  
+}
+
+.Button.start {
+  background: rgba(29, 132, 181, 1);
+}
+
+.Button.pause {
+  background: rgba(23, 96, 135, 1);
+}
+
+.Button.clear {
+  background: red;
+}

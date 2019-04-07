@@ -1,3 +1,11 @@
+/**
+rgba(10, 34, 57, 1);
+rgba(83, 162, 190, 1);
+rgba(29, 132, 181, 1);
+rgba(19, 46, 50, 1);
+rgba(23, 96, 135, 1);
+*/
+
 body {
   margin: 0;
   padding: 0;
@@ -6,9 +14,4 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
 }
