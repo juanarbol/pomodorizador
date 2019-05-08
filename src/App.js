@@ -33,19 +33,24 @@ class App extends Component {
 
   start () {
     this.setState({ pause: false })
+    const { timer } = this.state
 
-    const second = duration(1, 'second')
     this.interval = setInterval(() => {
-      this.setState(({ timer }) => ({ timer: timer.subtract(second) }))
+      timer.subtract(1, 'second')
+      this.setState(timer)
     }, 1000)
   }
 
-  render() {
+  timerDone () {
+    
+  }
+
+  render () {
     const { timer, pause } = this.state
     let timerAction
     let timerActionName
     let timerClassName
-    
+
     if (pause) {
       timerAction = this.start
       timerActionName = 'Start'
@@ -54,6 +59,11 @@ class App extends Component {
       timerAction = this.pause
       timerActionName = 'Pause'
       timerClassName = 'pause'
+    }
+
+    const timerIsDone = timer.asSeconds() === 0
+    if (timerIsDone) {
+      this.pause();
     }
 
     return (
@@ -65,16 +75,18 @@ class App extends Component {
           seconds={timer.seconds()}
         >
         </TimerDisplay>
-        <Button
-          text={timerActionName}
-          onClick={() => timerAction()}
-          className={timerClassName}
-        />
-        <Button
-          text="Clear"
-          onClick={() => this.clear()}
-          className="clear"
-        />
+        <div className="actions">
+          <Button
+            text={timerActionName}
+            onClick={timerAction}
+            className={timerClassName}
+          />
+          <Button
+            text="Clear"
+            onClick={this.clear}
+            className="clear"
+          />
+        </div>
       </div>
     );
   }

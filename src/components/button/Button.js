@@ -1,13 +1,14 @@
-import React, { memo } from 'react'
+import React from 'react'
 import './Button.css'
-const Button = (props) => {
+const Button = React.memo(function Button ({ text, className, onClick }) {
   return (
     <button
-      className={`Button ${props.className}`}
-      onClick={() => props.onClick()}
+      className={`Button ${className}`}
+      onClick={() => onClick()}
     >
-      { props.text }
+      { text }
     </button>
   )
-};
-export default memo(Button)
+})
+
+export default Button
