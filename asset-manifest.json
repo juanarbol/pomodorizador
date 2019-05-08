@@ -1,13 +1,13 @@
 {
-  "main.css": "/pomodorizador/static/css/main.d01aea44.chunk.css",
-  "main.js": "/pomodorizador/static/js/main.02123011.chunk.js",
-  "main.js.map": "/pomodorizador/static/js/main.02123011.chunk.js.map",
+  "main.css": "/pomodorizador/static/css/main.7f51ea38.chunk.css",
+  "main.js": "/pomodorizador/static/js/main.185ea595.chunk.js",
+  "main.js.map": "/pomodorizador/static/js/main.185ea595.chunk.js.map",
   "runtime~main.js": "/pomodorizador/static/js/runtime~main.1a50ee4e.js",
   "runtime~main.js.map": "/pomodorizador/static/js/runtime~main.1a50ee4e.js.map",
   "static/js/2.48c56f0e.chunk.js": "/pomodorizador/static/js/2.48c56f0e.chunk.js",
   "static/js/2.48c56f0e.chunk.js.map": "/pomodorizador/static/js/2.48c56f0e.chunk.js.map",
   "index.html": "/pomodorizador/index.html",
-  "precache-manifest.782b0c553691df62db43f20da2bae52e.js": "/pomodorizador/precache-manifest.782b0c553691df62db43f20da2bae52e.js",
+  "precache-manifest.c53e6af57fea5795c99a0603e0010402.js": "/pomodorizador/precache-manifest.c53e6af57fea5795c99a0603e0010402.js",
   "service-worker.js": "/pomodorizador/service-worker.js",
-  "static/css/main.d01aea44.chunk.css.map": "/pomodorizador/static/css/main.d01aea44.chunk.css.map"
+  "static/css/main.7f51ea38.chunk.css.map": "/pomodorizador/static/css/main.7f51ea38.chunk.css.map"
 }
