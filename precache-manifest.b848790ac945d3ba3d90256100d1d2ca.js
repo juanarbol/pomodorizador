@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/pomodorizador/static/js/runtime~main.1a50ee4e.js"
   },
   {
-    "revision": "c4c30166649528ee5f1e",
-    "url": "/pomodorizador/static/js/main.b89f4e0d.chunk.js"
+    "revision": "cf901b6a5e2d716d8d3f",
+    "url": "/pomodorizador/static/js/main.d84bdebf.chunk.js"
   },
   {
     "revision": "13296e91fcf2032848f3",
     "url": "/pomodorizador/static/js/2.48c56f0e.chunk.js"
   },
   {
-    "revision": "c4c30166649528ee5f1e",
+    "revision": "cf901b6a5e2d716d8d3f",
     "url": "/pomodorizador/static/css/main.1644eb99.chunk.css"
   },
   {
-    "revision": "bf873ffce284a67913ec0f1140997eca",
+    "revision": "5215fa2ed2850aa6848a5a88b3afe8ea",
     "url": "/pomodorizador/index.html"
   }
 ];
