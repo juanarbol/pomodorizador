@@ -5,7 +5,7 @@ const TimerDisplay = ({ hours, minutes, seconds }) => {
   document.title = `${hours}:${minutes}:${seconds}`
 
   return (
-    <span className="timer-info">{ `${hours}:${minutes}:${seconds}` }</span>
+    <span className='timer-info'>{ `${hours}:${minutes}:${seconds}` }</span>
   )
 }
 

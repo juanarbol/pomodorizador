@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from 'react'
+import './App.css'
 
 import { duration } from 'moment'
 
@@ -15,11 +15,10 @@ class App extends Component {
     }
 
     this.clear = this.clear.bind(this)
+    this.interval = null
     this.pause = this.pause.bind(this)
     this.start = this.start.bind(this)
   }
-
-  interval
 
   clear () {
     this.setState({ timer: duration(25, 'minutes'), pause: true })
@@ -42,7 +41,6 @@ class App extends Component {
   }
 
   timerDone () {
-    
   }
 
   render () {
@@ -63,33 +61,32 @@ class App extends Component {
 
     const timerIsDone = timer.asSeconds() === 0
     if (timerIsDone) {
-      this.pause();
+      this.pause()
     }
 
     return (
-      <div className="App">
-        <h1 className="main-title">Pomodorizador</h1>
+      <div className='App'>
+        <h1 className='main-title'>Pomodorizador</h1>
         <TimerDisplay
           hours={timer.hours()}
           minutes={timer.minutes()}
           seconds={timer.seconds()}
-        >
-        </TimerDisplay>
-        <div className="actions">
+        />
+        <div className='actions'>
           <Button
             text={timerActionName}
             onClick={timerAction}
             className={timerClassName}
           />
           <Button
-            text="Clear"
+            text='Clear'
             onClick={this.clear}
-            className="clear"
+            className='clear'
           />
         </div>
       </div>
-    );
+    )
   }
 }
 
-export default App;
+export default App
